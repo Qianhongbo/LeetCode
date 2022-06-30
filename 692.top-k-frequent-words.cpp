@@ -45,7 +45,7 @@ class Solution {
       count[word]++;
     }
 
-    typedef std::pair<std::string, int> Node;
+    using Node = std::pair<std::string, int>;
     auto comp = [](const Node& a, const Node& b) {
       if (a.second == b.second) {
         return a.first < b.first;

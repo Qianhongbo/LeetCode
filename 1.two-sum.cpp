@@ -24,7 +24,7 @@ public:
       // if find, return the index,
       // if not, put the value into the hash table
       std::vector<int> res;
-      std::unordered_map<int, int> theMap;
+      std::unordered_map<int, int> theMap; // number to index map
       int theSize = nums.size();
       for (int i = 0; i < theSize; i++) {
         int theNumber = nums[i];
