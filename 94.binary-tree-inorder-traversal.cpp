@@ -1,7 +1,7 @@
 /*
- * @lc app=leetcode id=104 lang=cpp
+ * @lc app=leetcode id=94 lang=cpp
  *
- * [104] Maximum Depth of Binary Tree
+ * [94] Binary Tree Inorder Traversal
  */
 
 // @lc code=start
@@ -17,7 +17,8 @@
  * };
  */
 
-#include <algorithm>
+#include <vector>
+using namespace std;
 
 // ! need to be commented before submitting
 struct TreeNode {
@@ -31,21 +32,9 @@ struct TreeNode {
 
 class Solution {
  public:
-  // solution 1: divide the tree to subtree
-  int maxDepth(TreeNode *root) {
-    // base case
-    if (!root) return 0;
-
-    int leftMax = maxDepth(root->left);
-    int rightMax = maxDepth(root->right);
-
-    return std::max(leftMax, rightMax) + 1;
-  }
-
-  // solution 2: traverse the whole tree
-  // int depth; // the depth of each node
-  // int res;   // final result 
-  // int maxDepth(TreeNode *root) {
+  // solution 1: traverse the whole tree
+  // std::vector<int> res;
+  // vector<int> inorderTraversal(TreeNode *root) {
   //   traverse(root);
   //   return res;
   // }
@@ -53,14 +42,26 @@ class Solution {
   // void traverse(TreeNode* root) {
   //   if (!root) return;
 
-  //   depth++;
-  //   if (!root->left && !root->right) {
-  //     // arrive the leaf of the tree
-  //     res = std::max(res, depth);
-  //   }
   //   traverse(root->left);
+  //   res.push_back(root->val);
   //   traverse(root->right);
-  //   depth--;
   // }
+
+  // solution 2: divide the tree to subtree
+  vector<int> inorderTraversal(TreeNode *root) {
+    std::vector<int> res;
+    if (!root) return res;
+
+    std::vector<int> temp1 = inorderTraversal(root->left);
+    res.insert(res.end(), temp1.begin(), temp1.end());
+    res.push_back(root->val);
+    std::vector<int> temp2 = inorderTraversal(root->right);
+    res.insert(res.end(), temp2.begin(), temp2.end());
+
+    // res.reserve(1 + temp1.size() + temp2.size());
+    
+    
+    return res;
+  }
 };
 // @lc code=end

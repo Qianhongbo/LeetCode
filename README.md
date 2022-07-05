@@ -47,4 +47,9 @@
 |      |      | 104    | Maximum Depth of Binary Tree                            | Tree                      | 44    |
 |      |      | 100    | Same Tree                                               | Tree                      | 45    |
 |      |      | 572    | Subtree of Another Tree                                 | Tree                      | 46    |
+| 7/1  |      | 102    | Binary Tree Level Order Traversal                       | Tree                      | 47    |
+| 7/5  |      | 98     | Validate Binary Search Tree                             | Tree                      | 48    |
+|      |      | 144    | Binary Tree Preorder Traversal                          | Tree                      | 49    |
+|      |      | 145    | Binary Tree Postorder Traversal                         | Tree                      | 50    |
+|      |      | 94     | Binary Tree Inorder Traversal                           | Tree                      | 51    |
 
