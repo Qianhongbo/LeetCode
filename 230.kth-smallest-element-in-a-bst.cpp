@@ -29,8 +29,22 @@ struct TreeNode {
 
 class Solution {
  public:
+  int res{0}; // result
+  int rank{0}; // the rank of current element
   int kthSmallest(TreeNode *root, int k) {
-    
+    traverse(root, k);
+    return res;
+  }
+
+  void traverse(TreeNode* root, int k) {
+    if (!root) return;
+    traverse(root->left, k);
+    rank++;
+    if (k == rank) {
+      res = root->val;
+      return;
+    }
+    traverse(root->right, k);
   }
 };
 // @lc code=end
