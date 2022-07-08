@@ -54,9 +54,10 @@
 |      |      | 94     | Binary Tree Inorder Traversal                             | Binary Tree               | 51    |
 |      |      | 230    | Kth Smallest Element in a BST                             | BST                       | 52    |
 |      |      | 105    | Construct Binary Tree from Preorder and Inorder Traversal | Binary Tree               | 53    |
-| 7/6  |      | 124    | Binary Tree Maximum Path Sum                              | Binary Tree               | 54    |
+| 7/6  | Mock | 124    | Binary Tree Maximum Path Sum                              | Binary Tree               | 54    |
 |      |      | 297    | Serialize and Deserialize Binary Tree                     | Binary Tree               | 55    |
 |      |      | 236    | Lowest Common Ancestor of a Binary Tree                   | Binary Tree               | 56    |
+|      |      | 222    | Count Complete Tree Nodes                                 | Complete Tree             | 57    |
 
 
 
