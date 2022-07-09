@@ -58,6 +58,14 @@
 |      |      | 297    | Serialize and Deserialize Binary Tree                     | Binary Tree               | 55    |
 |      |      | 236    | Lowest Common Ancestor of a Binary Tree                   | Binary Tree               | 56    |
 |      |      | 222    | Count Complete Tree Nodes                                 | Complete Tree             | 57    |
+| 7/8  |      | 694    | Number of Distinct Islands                                | DFS                       | 58    |
+|      |      | 463    | Island Perimeter                                          |                           | 59    |
+|      |      | 46     | Permutations                                              | Backtrack                 | 60    |
+| 7/9  |      | 51     | N-Queens                                                  | Backtrack                 | 61    |
+|      |      | 78     | Subsets                                                   | Backtrack                 | 62    |
+|      |      | 77     | Combinations                                              | Backtrack                 | 63    |
+|      |      | 39     | Combination Sum                                           | Backtrack                 | 64    |
+|      |      | 79     | Word Search                                               | Backtrack                 | 65    |
 
 
 

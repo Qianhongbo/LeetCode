@@ -34,8 +34,8 @@ class Solution {
     for (int r{0}; r < rows; r++) {
       for (int c{0}; c < cols; c++) {
         if (LAND == grid[r][c] && !visited[r][c]) {
-          // dfs(grid, r, c);
-          bfs(grid, r, c);
+          dfs(grid, r, c);
+          // bfs(grid, r, c);
           count += 1;
         }
       }
