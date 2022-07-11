@@ -66,6 +66,10 @@
 |      |      | 77     | Combinations                                              | Backtrack                 | 63    |
 |      |      | 39     | Combination Sum                                           | Backtrack                 | 64    |
 |      |      | 79     | Word Search                                               | Backtrack                 | 65    |
+| 7/10 |      | 90     | Subsets II                                                | Backtrack                 | 66    |
+|      |      | 40     | Combination Sum II                                        | Backtrack                 | 67    |
+|      |      | 47     | Permutations II                                           | Backtrack                 | 68    |
+|      |      | 216    | Combination Sum III                                       | Backtrack                 | 69    |
 
 
 
