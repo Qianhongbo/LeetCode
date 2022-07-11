@@ -1,10 +1,3 @@
-/*
- * @lc app=leetcode id=230 lang=cpp
- *
- * [230] Kth Smallest Element in a BST
- */
-
-// @lc code=start
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -17,6 +10,8 @@
  * };
  */
 
+#include <limits.h>
+
 // ! need to be commented before submitting
 struct TreeNode {
   int val;
@@ -28,36 +23,29 @@ struct TreeNode {
 };
 
 class Solution {
- public:
-  int res{0}; // result
-  int rank{0}; // the rank of current element
-  int kthSmallest(TreeNode *root, int k) {
-    traverse(root, k);
+public:
+  int res;
+  int current{INT_MAX};
+  
+  int closestValue(TreeNode* root, double target) {
+    traverse(root, target);
     return res;
   }
-
-  void traverse(TreeNode* root, int k) {
-    if (!root) return;
-    traverse(root->left, k);
-    rank++;
-    if (k == rank) {
-      res = root->val;
+  
+  void traverse(TreeNode* root, double target) {
+    if (!root) {
       return;
     }
-    traverse(root->right, k);
+    
+    if (abs(target - root->val) < abs(target - current)) {
+      current = root->val;
+      res = root->val;
+    }
+    
+    if (root->val > target) {
+      traverse(root->left, target);
+    } else {
+      traverse(root->right, target);
+    }
   }
-
-  // find kth largest number
-  // use reverse inorder traversal
-  // void traverse(TreeNode* root, int k) {
-  //   if (!root) return;
-  //   traverse(root->right, k);
-  //   rank++;
-  //   if (k == rank) {
-  //     res = root->val;
-  //     return;
-  //   }
-  //   traverse(root->left, k);
-  // }
 };
-// @lc code=end

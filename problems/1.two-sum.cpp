@@ -32,9 +32,8 @@ public:
         if (theMap.count(complement)) {
           res = {theMap[complement], i};
           break;
-        } else {
-          theMap[theNumber] = i;
         }
+        theMap[theNumber] = i;
       }
       return res;
     }

@@ -211,7 +211,7 @@ def postOrderTraverse(tree, array):
 
 # Min Height BST
 
-Write a function that takes in a sorted array of distince integers. Construct a BST from the integers, and return the root of the BST.
+Write a function that takes in a sorted array of distinct integers. Construct a BST from the integers, and return the root of the BST.
 
 Recursive!
 

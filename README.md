@@ -75,6 +75,7 @@
 |      |      | 7      | Reverse Integer                                           | Math                      | 72    |
 |      |      | 9      | Palindrome Number                                         | Math                      | 73    |
 |      |      | 2      | Add Two Numbers                                           | Linked list               | 74    |
+|      |      | 270    | Closest Binary Search Tree Value                          | Binary Tree               | 75    |
 
 
 

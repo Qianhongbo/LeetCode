@@ -35,7 +35,7 @@ class Solution {
     return helper(root, nullptr, nullptr);
   }
 
-  bool helper(TreeNode* root, TreeNode* min, TreeNode* max) {
+  bool helper(TreeNode *root, TreeNode *min, TreeNode *max) {
     // base case
     if (!root) return true;
     // validation
