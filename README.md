@@ -70,6 +70,11 @@
 |      |      | 40     | Combination Sum II                                        | Backtrack                 | 67    |
 |      |      | 47     | Permutations II                                           | Backtrack                 | 68    |
 |      |      | 216    | Combination Sum III                                       | Backtrack                 | 69    |
+| 7/11 |      | 1254   | Number of Closed Islands                                  | DFS                       | 70    |
+|      |      | 1020   | Number of Enclaves                                        | DFS                       | 71    |
+|      |      | 7      | Reverse Integer                                           | Math                      | 72    |
+|      |      | 9      | Palindrome Number                                         | Math                      | 73    |
+|      |      | 2      | Add Two Numbers                                           | Linked list               | 74    |
 
 
 
