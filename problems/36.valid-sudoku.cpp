@@ -15,46 +15,46 @@ class Solution {
   // * Time: O(N^2), Space: O(N^2) where N is the size of the board
   // * Actually, if the size of the board is fixed, the complexity should be O(1)
   // Using hashset for row, column and 3x3 box
-  // bool isValidSudoku(vector<vector<char>>& board) {
-  //   int theSize = 9;
-  //   // initialize vector of set
-  //   std::vector<set<char>> rows;
-  //   std::vector<set<char>> cols;
-  //   std::vector<set<char>> boxes;
-  //   // putback sets to the vector
-  //   for (int i{0}; i < theSize; i++) {
-  //     rows.push_back({});
-  //     cols.push_back({});
-  //     boxes.push_back({});
-  //   }
-  //   for (int r{0}; r < theSize; r++) {
-  //     for (int c{0}; c < theSize; c++) {
-  //       char theChar = board[r][c];
+  bool isValidSudoku(vector<vector<char>>& board) {
+    int theSize = 9;
+    // initialize vector of set
+    std::vector<set<char>> rows;
+    std::vector<set<char>> cols;
+    std::vector<set<char>> boxes;
+    // putsh_back sets to the vector
+    for (int i{0}; i < theSize; i++) {
+      rows.push_back({});
+      cols.push_back({});
+      boxes.push_back({});
+    }
+    for (int r{0}; r < theSize; r++) {
+      for (int c{0}; c < theSize; c++) {
+        char theChar = board[r][c];
 
-  //       if ('.' == theChar) {
-  //         continue;
-  //       }
+        if ('.' == theChar) {
+          continue;
+        }
 
-  //       if (rows[r].count(theChar)) {
-  //         return false;
-  //       }
-  //       rows[r].insert(theChar);
+        if (rows[r].count(theChar)) {
+          return false;
+        }
+        rows[r].insert(theChar);
 
-  //       if (cols[c].count(theChar)) {
-  //         return false;
-  //       }
-  //       cols[c].insert(theChar);
+        if (cols[c].count(theChar)) {
+          return false;
+        }
+        cols[c].insert(theChar);
 
-  //       int idx = (r / 3) * 3 + (c / 3);
-  //       if (boxes[idx].count(theChar)) {
-  //         return false;
-  //       }
-  //       boxes[idx].insert(theChar);
-  //     }
-  //   }
+        int idx = (r / 3) * 3 + (c / 3);
+        if (boxes[idx].count(theChar)) {
+          return false;
+        }
+        boxes[idx].insert(theChar);
+      }
+    }
 
-  //   return true;
-  // }
+    return true;
+  }
 
   // ? The second solution
   // use bit to represent different position rather than a set

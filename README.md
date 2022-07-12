@@ -76,6 +76,8 @@
 |      |      | 9      | Palindrome Number                                         | Math                      | 73    |
 |      |      | 2      | Add Two Numbers                                           | Linked list               | 74    |
 |      |      | 270    | Closest Binary Search Tree Value                          | Binary Tree               | 75    |
+| 7/12 |      | 37     | Sudoku Solver                                             | Backtrack                 | 76    |
+|      |      | 22     | Generate Parentheses                                      | Backtrack                 | 77    |
 
 
 
