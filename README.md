@@ -78,6 +78,9 @@
 |      |      | 270    | Closest Binary Search Tree Value                          | Binary Tree               | 75    |
 | 7/12 |      | 37     | Sudoku Solver                                             | Backtrack                 | 76    |
 |      |      | 22     | Generate Parentheses                                      | Backtrack                 | 77    |
+|      |      | 698    | Partition to K Equal Sum Subsets                          | Backtrack                 | 78    |
+| 7/13 |      | 111    | Minimum Depth of Binary Tree                              | BFS                       | 79    |
+|      |      | 752    | Open the Lock                                             | BFS                       | 80    |
 
 
 
