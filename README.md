@@ -83,6 +83,7 @@
 |      |      | 752    | Open the Lock                                             | BFS                       | 80    |
 | 7/15 |      | 773    | Sliding Puzzle                                            | BFS                       | 81    |
 |      |      | 295    | Find Median from Data Stream                              | Heap                      | 82    |
+|      |      | 703    | Kth Largest Element in a Stream                           | Heap                      | 83    |
 
 
 
