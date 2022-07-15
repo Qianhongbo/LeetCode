@@ -73,14 +73,16 @@
 | 7/11 |      | 1254   | Number of Closed Islands                                  | DFS                       | 70    |
 |      |      | 1020   | Number of Enclaves                                        | DFS                       | 71    |
 |      |      | 7      | Reverse Integer                                           | Math                      | 72    |
-|      |      | 9      | Palindrome Number                                         | Math                      | 73    |
+| 7/12 |      | 9      | Palindrome Number                                         | Math                      | 73    |
 |      |      | 2      | Add Two Numbers                                           | Linked list               | 74    |
 |      |      | 270    | Closest Binary Search Tree Value                          | Binary Tree               | 75    |
-| 7/12 |      | 37     | Sudoku Solver                                             | Backtrack                 | 76    |
+| 7/13 |      | 37     | Sudoku Solver                                             | Backtrack                 | 76    |
 |      |      | 22     | Generate Parentheses                                      | Backtrack                 | 77    |
-|      |      | 698    | Partition to K Equal Sum Subsets                          | Backtrack                 | 78    |
-| 7/13 |      | 111    | Minimum Depth of Binary Tree                              | BFS                       | 79    |
+| 7/14 |      | 698    | Partition to K Equal Sum Subsets                          | Backtrack                 | 78    |
+|      |      | 111    | Minimum Depth of Binary Tree                              | BFS                       | 79    |
 |      |      | 752    | Open the Lock                                             | BFS                       | 80    |
+| 7/15 |      | 773    | Sliding Puzzle                                            | BFS                       | 81    |
+|      |      | 295    | Find Median from Data Stream                              | Heap                      | 82    |
 
 
 
