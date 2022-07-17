@@ -86,6 +86,8 @@
 |      |      | 703    | Kth Largest Element in a Stream                           | Heap                      | 83    |
 | 7/16 |      | 208    | Implement Trie (Prefix Tree)                              | Trie                      | 84    |
 |      |      | 648    | Replace Words                                             | Trie                      | 85    |
+| 7/17 |      | 211    | Design Add and Search Words Data Structure                | Trie                      | 86    |
+|      |      |        |                                                           |                           |       |
 
 
 
