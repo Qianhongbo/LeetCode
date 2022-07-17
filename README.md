@@ -84,6 +84,8 @@
 | 7/15 |      | 773    | Sliding Puzzle                                            | BFS                       | 81    |
 |      |      | 295    | Find Median from Data Stream                              | Heap                      | 82    |
 |      |      | 703    | Kth Largest Element in a Stream                           | Heap                      | 83    |
+| 7/16 |      | 208    | Implement Trie (Prefix Tree)                              | Trie                      | 84    |
+|      |      | 648    | Replace Words                                             | Trie                      | 85    |
 
 
 
