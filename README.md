@@ -89,6 +89,10 @@
 | 7/17 |      | 211    | Design Add and Search Words Data Structure                | Trie                      | 86    |
 |      |      | 560    | Subarray Sum Equals K                                     | Prefix sum                | 87    |
 |      |      | 212    | Word Search II                                            | DFS Trie                  | 88    |
+| 7/18 |      | 20     | Valid Parentheses                                         | Stack                     | 89    |
+|      |      | 155    | Min Stack                                                 | Stack                     | 90    |
+|      |      | 225    | Implement Stack using Queues                              | Stack                     | 91    |
+|      |      | 232    | Implement Queue using Stacks                              | Stack                     | 92    |
 
 
 
