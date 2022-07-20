@@ -71,6 +71,7 @@
     "__functional_base": "cpp",
     "algorithm": "cpp",
     "functional": "cpp",
-    "numeric": "cpp"
+    "numeric": "cpp",
+    "stack": "cpp"
   }
 }

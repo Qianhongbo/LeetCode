@@ -93,6 +93,14 @@
 |      |      | 155    | Min Stack                                                 | Stack                     | 90    |
 |      |      | 225    | Implement Stack using Queues                              | Stack                     | 91    |
 |      |      | 232    | Implement Queue using Stacks                              | Stack                     | 92    |
+| 7/19 |      | 72     | Edit Distance                                             | DP                        | 93    |
+|      |      | 516    | Longest Palindromic Subsequence                           | DP                        | 94    |
+|      |      | 70     | Climbing Stairs                                           | DP                        | 95    |
+|      |      | 198    | House Robber                                              | DP                        | 96    |
+|      |      | 213    | House Robber II                                           | DP                        | 97    |
+|      |      | 5      | Longest Palindromic Substring                             | DP                        | 98    |
+| 7/20 |      | 647    | Palindromic Substrings                                    | DP                        | 99    |
+|      |      |        |                                                           |                           |       |
 
 
 
