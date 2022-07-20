@@ -100,7 +100,11 @@
 |      |      | 213    | House Robber II                                           | DP                        | 97    |
 |      |      | 5      | Longest Palindromic Substring                             | DP                        | 98    |
 | 7/20 |      | 647    | Palindromic Substrings                                    | DP                        | 99    |
-|      |      |        |                                                           |                           |       |
+|      |      | 91     | Decode Ways                                               | DP                        | 100   |
+|      |      | 53     | Maximum Subarray                                          | DP                        | 101   |
+|      |      | 55     | Jump Game                                                 | Greedy                    | 102   |
+|      |      | 45     | Jump Game II                                              | Greedy                    | 103   |
+|      |      | 134    | Gas Station                                               | Greedy                    | 104   |
 
 
 
