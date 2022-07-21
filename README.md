@@ -105,6 +105,9 @@
 |      |      | 55     | Jump Game                                                 | Greedy                    | 102   |
 |      |      | 45     | Jump Game II                                              | Greedy                    | 103   |
 |      |      | 134    | Gas Station                                               | Greedy                    | 104   |
+| 7/21 |      | 56     | Merge Intervals                                           | Interval                  | 105   |
+|      |      | 1288   | Remove Covered Intervals                                  | Interval                  | 106   |
+|      |      | 986    | Interval List Intersections                               | Interval                  | 107   |
 
 
 
