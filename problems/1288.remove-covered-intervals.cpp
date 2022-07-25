@@ -29,7 +29,7 @@ class Solution {
 
       // three conditions
       // 1. cover
-      if (left <= curr[0] && curr[1] <= right) {
+      if (curr[1] <= right) {
         res++;
       }
 

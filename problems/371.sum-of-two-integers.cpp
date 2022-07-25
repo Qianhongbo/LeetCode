@@ -5,21 +5,22 @@
  */
 
 #include <limits.h>
+#include <cstdint>
 
 // @lc code=start
 class Solution {
  public:
   int getSum(int a, int b) {
-    long mask = 0xFFFFFFFF;
+    // long mask = 0xFFFFFFFF;
 
     while (b != 0) {
-      int answer = (a ^ b) & mask;
-      int carry = ((a & b) & mask) << 1;
+      int answer = (a ^ b);
+      int carry = static_cast<uint32_t>((a & b)) << 1;
       a = answer;
       b = carry;
     }
 
-    return a < INT_MAX ? a : ~(a ^ mask);
+    return a;
   }
 };
 // @lc code=end
