@@ -13,7 +13,7 @@ class Solution {
     // std::cout << trailingZeros(10e9) << "\n";
     // std::cout << trailingZeros(INT_MAX) << "\n";
     // std::cout << trailingZeros(LONG_MAX) << "\n";
-    return static_cast<int>(findRightBount(k) - findLeftBount(k));
+    return static_cast<int>(findRightBound(k) - findLeftBound(k));
   }
 
   long trailingZeros(long k) {
@@ -27,7 +27,7 @@ class Solution {
     return res;
   }
 
-  long findLeftBount(int k) {
+  long findLeftBound(int k) {
     long left = 0, right = LONG_MAX;
     while (left < right) {
       long mid = left + (right - left) / 2;
@@ -44,7 +44,7 @@ class Solution {
     return right - 1;
   }
 
-  long findRightBount(int k) {
+  long findRightBound(int k) {
     long left = 0, right = LONG_MAX;
     while (left < right) {
       long mid = left + (right - left) / 2;
