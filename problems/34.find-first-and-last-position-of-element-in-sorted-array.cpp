@@ -22,47 +22,44 @@ public:
       return {theLeft, theRight};
     }
 
-    int getRightBound(vector<int>& nums, int target) {
-      int left = 0, right = nums.size() - 1;
+    int getLeftBound(const vector<int>& nums, int target) {
+      int left = 0, right = nums.size();
 
-      while (left <= right) {
+      while (left < right) {
         int mid = left + (right - left) / 2;
 
-        if (nums[mid] > target) {
-          right = mid - 1;
+        if (nums[mid] == target) {
+          right = mid;
+        } else if (nums[mid] < target) {
+          left = mid + 1;
+        } else if (nums[mid] > target) {
+          right = mid;
+        }
+      }
+
+      if (left == nums.size()) return -1;
+      return nums[left] == target ? left : -1;
+    }
+
+    int getRightBound(const vector<int>& nums, int target) {
+      int left = 0, right = nums.size();
+
+      while (left < right) {
+        int mid = left + (right - left) / 2;
+
+        if (nums[mid] == target) {
+          left = mid + 1;
         } else if (nums[mid] < target) {
           left = mid + 1;
         } else {
-          // find the target number 
-          // but still need to find  the start and end
-          if (mid == right || nums[mid + 1] != target) {
-            return mid;
-          }
-          left = mid + 1;
+          right = mid;
         }
       }
-      return -1;
+
+      if (left - 1 < 0) return -1;
+      return nums[left - 1] == target ? left - 1 : -1;
     }
 
-    int getLeftBound(vector<int>& nums, int target) {
-      int left = 0, right = nums.size() - 1;
-
-      while (left <= right) {
-        int mid = left + (right - left) / 2;
-
-        if (nums[mid] > target) {
-          right = mid - 1;
-        } else if (nums[mid] < target) {
-          left = mid + 1;
-        } else {
-          if (mid == left || nums[mid - 1] != target) {
-            return mid;
-          }
-          right = mid - 1;
-        }
-      }
-      return -1;
-    }
 };
 // @lc code=end
 

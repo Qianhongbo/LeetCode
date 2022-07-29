@@ -29,7 +29,7 @@ class Solution {
     int rows = matrix.size();
     int cols = matrix[0].size();
     for (int r{0}; r < rows; r++) {
-      for (int c{r}; c < cols; c++) {
+      for (int c{r + 1}; c < cols; c++) {
         // swap the number in a diagonal position
         int tmp = matrix[r][c];
         matrix[r][c] = matrix[c][r];

@@ -124,6 +124,20 @@
 | 7/25 |         | 57     | Insert Interval                                           | Interval                  | 121   |
 |      |         | 48     | Rotate Image                                              | Matrix                    | 122   |
 |      |         | 151    | Reverse Words in a String                                 | String                    | 123   |
+| 7/26 |         | 54     | Spiral Matrix                                             | Matrix                    | 124   |
+|      |         | 59     | Spiral Matrix II                                          | Matrix                    | 125   |
+|      |         | 73     | Set Matrix Zeroes                                         | Matrix                    | 126   |
+| 7/27 |         | 189    | Rotate Array                                              | Array                     | 127   |
+|      |         | 543    | Diameter of Binary Tree                                   | Tree                      | 128   |
+|      |         | 110    | Balanced Binary Tree                                      | Tree                      | 129   |
+|      |         | 199    | Binary Tree Right Side View                               | Tree                      | 130   |
+|      |         | 1448   | Count Good Nodes in Binary Tree                           | Tree                      | 131   |
+| 7/28 |         | 35     | Search Insert Position                                    | Binary search             | 132   |
+|      |         | 162    | Find Peak Element                                         | Binary search             | 133   |
+|      |         | 852    | Peak Index in a Mountain Array                            | Binary search             | 134   |
+|      |         | 172    | Factorial Trailing Zeroes                                 | Factorial                 | 135   |
+|      |         | 793    | Preimage Size of Factorial Zeroes Function                | Binary search             | 136   |
+| 7/29 |         |        |                                                           |                           |       |
 
 
 
